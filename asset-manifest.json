@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Ghaith-Weather-App/static/css/main.d57245c1.css",
-    "main.js": "/Ghaith-Weather-App/static/js/main.c6297da0.js",
+    "main.css": "/Ghaith-Weather-App/static/css/main.a2cd9d43.css",
+    "main.js": "/Ghaith-Weather-App/static/js/main.74ea5d4b.js",
     "static/js/453.19984f4d.chunk.js": "/Ghaith-Weather-App/static/js/453.19984f4d.chunk.js",
     "static/js/38.dadae561.chunk.js": "/Ghaith-Weather-App/static/js/38.dadae561.chunk.js",
     "index.html": "/Ghaith-Weather-App/index.html",
-    "main.d57245c1.css.map": "/Ghaith-Weather-App/static/css/main.d57245c1.css.map",
-    "main.c6297da0.js.map": "/Ghaith-Weather-App/static/js/main.c6297da0.js.map",
+    "main.a2cd9d43.css.map": "/Ghaith-Weather-App/static/css/main.a2cd9d43.css.map",
+    "main.74ea5d4b.js.map": "/Ghaith-Weather-App/static/js/main.74ea5d4b.js.map",
     "453.19984f4d.chunk.js.map": "/Ghaith-Weather-App/static/js/453.19984f4d.chunk.js.map",
     "38.dadae561.chunk.js.map": "/Ghaith-Weather-App/static/js/38.dadae561.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d57245c1.css",
-    "static/js/main.c6297da0.js"
+    "static/css/main.a2cd9d43.css",
+    "static/js/main.74ea5d4b.js"
   ]
 }
