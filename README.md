@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A weather application that allows users to check real-time weather data for any location across the globe. The app fetches data from the OpenWeatherMap API and provides a user-friendly interface with multi-language support (English and Arabic). It is built using React, Tailwind CSS, and several other modern web technologies.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+The Weather Application is designed to provide users with an intuitive interface for accessing current weather information. By selecting a country and state or city, users can view detailed weather data, including temperature, wind speed, humidity, and more. The app also features localization to support multiple languages, making it accessible to a wider audience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- **Real-Time Weather Information:** Fetches and displays weather data, including temperature, humidity, wind speed, and more.
+- **Location Selection:** Users can choose a country and city/state to view weather data.
+- **Multi-Language Support:** Switch between English and Arabic languages.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Modern UI:** Built with a clean and modern UI using Tailwind CSS and Preline CSS.
+- **Internationalization:** Translates the app content based on the user's selected language using `react-i18next`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React:** A JavaScript library for building the user interface.
+- **Tailwind CSS:** A utility-first CSS framework for fast UI development.
+- **Preline CSS:** Extends Tailwind CSS with additional modern UI components.
+- **Axios:** A promise-based HTTP client for making API requests.
+- **Moment.js:** A JavaScript library for parsing, validating, and formatting dates.
+- **React-i18next:** For internationalization, supporting multiple languages.
+- **React Icons:** Provides vector icons for enhancing the UI.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Folder Structure
 
-### `npm run eject`
+/public
+    /fonts           - Font files (Arabic and English).
+    /icons           - Icons used throughout the app.
+    /images          - Image assets used in the app.
+    /locales         - Localization files for different languages.
+    favicon.ico      - App favicon.
+    index.html       - Main HTML structure.
+    logo192.png      - Icon for different device resolutions.
+    logo512.png      - Icon for different device resolutions.
+    manifest.json    - PWA configuration.
+    robots.txt       - Web crawlers instructions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/
+    /components      - React components used in the UI.
+        CardComponent.js   - Displays weather info in card format.
+        FooterComponent.js - The footer of the app.
+        NavBar.js           - Navigation bar for selecting location.
+        Container.js        - Wrapper component for UI organization.
+    /contexts         - Context files for managing global state.
+        CountriesContext.js - Manages countries data.
+        SelectedLocationContext.js - Manages selected location data.
+        StateContext.js     - Manages general app state.
+        WeatherContext.js   - Manages weather data.
+    App.css          - Global CSS for the app.
+    App.js           - Root component integrating all the others.
+    App.test.js      - Test cases for the App component.
+    i18n.js          - Handles language translation.
+    index.css        - Styles for the main page.
+    index.js         - The entry point of the React app.
+    logo.svg         - The app logo in SVG format.
+    reportWebVitals.js - For measuring app performance.
+    setupTests.js    - Setup for testing environment.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+other-files/
+    package.json      - Metadata and dependencies for the project.
+    package-lock.json - Locked versions of dependencies.
+    README.md         - Project documentation.
+    tailwind.config.js - Tailwind CSS configuration.
+    .gitignore        - Files to be ignored by Git.
+    build/            - The production build of the app.
+    node_modules/     - Project dependencies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## API Reference
 
-## Learn More
+The application communicates with the following APIs to fetch required data:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Countries List:**
+   - **Endpoint:** `https://restcountries.com/v3.1/all`
+   - **Description:** Returns a list of all countries.
+   - **Usage:** Used to display a list of countries in the selection dropdown.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **States List:**
+   - **Endpoint:** `https://countriesnow.space/api/v0.1/countries/states`
+   - **Description:** Returns the list of states/provinces for a selected country.
+   - **Usage:** Used for populating the states selection based on the chosen country.
 
-### Code Splitting
+3. **Weather Data:**
+   - **Endpoint:** `https://api.openweathermap.org/data/2.5/weather?q=${SelectedState}&appid=YOUR_API_KEY`
+   - **Description:** Fetches real-time weather data for a selected state or city.
+   - **Usage:** Provides weather details (temperature, humidity, wind speed, etc.) for the selected location.
+   - **Parameters:** 
+     - `q`: The name of the city or state.
+     - `appid`: Your OpenWeatherMap API key.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To deploy the application, follow these steps:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/weather-application.git
