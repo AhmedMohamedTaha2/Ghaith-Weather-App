@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Ghaith-Weather-App/static/css/main.7a3bc666.css",
-    "main.js": "/Ghaith-Weather-App/static/js/main.58613752.js",
+    "main.js": "/Ghaith-Weather-App/static/js/main.e385ced2.js",
     "static/js/453.19984f4d.chunk.js": "/Ghaith-Weather-App/static/js/453.19984f4d.chunk.js",
     "static/js/38.dadae561.chunk.js": "/Ghaith-Weather-App/static/js/38.dadae561.chunk.js",
     "index.html": "/Ghaith-Weather-App/index.html",
     "main.7a3bc666.css.map": "/Ghaith-Weather-App/static/css/main.7a3bc666.css.map",
-    "main.58613752.js.map": "/Ghaith-Weather-App/static/js/main.58613752.js.map",
+    "main.e385ced2.js.map": "/Ghaith-Weather-App/static/js/main.e385ced2.js.map",
     "453.19984f4d.chunk.js.map": "/Ghaith-Weather-App/static/js/453.19984f4d.chunk.js.map",
     "38.dadae561.chunk.js.map": "/Ghaith-Weather-App/static/js/38.dadae561.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a3bc666.css",
-    "static/js/main.58613752.js"
+    "static/js/main.e385ced2.js"
   ]
 }
