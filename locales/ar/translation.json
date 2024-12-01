@@ -1,0 +1,18 @@
+{
+    "Date": "التاريخ",
+    "Location": "الموقع",
+    "Temperature": "درجة الحرارة",
+    "Weather Condition": "حالة الطقس",
+    "Max Temperature": "أعلى درجة حرارة",
+    "Min Temperature": "أدنى درجة حرارة",
+    "Humidity": "الرطوبة",
+    "Wind Speed": "سرعة الرياح",
+    "Language":"اللغة",
+    "Country":"الدولة",
+    "City":"المدينة",
+    "Stay connected with us":"ابقي علي تواصل معنا",
+    "img url":"/Images/غيث.png",
+    "No Location Selected":"لم تختار موقعك",
+    "Default Values":"قيم افتراضية "  
+  }
+  

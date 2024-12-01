@@ -1,0 +1,17 @@
+{
+  "Date": "Fecha",
+  "Location": "Ubicación",
+  "Temperature": "Temperatura",
+  "Weather Condition": "Condición meteorológica",
+  "Max Temperature": "Temperatura máxima",
+  "Min Temperature": "Temperatura mínima",
+  "Humidity": "Humedad",
+  "Wind Speed": "Velocidad del viento",
+  "Language": "Idioma",
+  "Country": "País",
+  "City": "Ciudad",
+  "Stay connected with us": "Mantente conectado con nosotros",
+  "img url": "/Images/ghiath.png",
+  "No Location Selected": "No se seleccionó ubicación",
+  "Default Values": "Valores predeterminados"
+}
