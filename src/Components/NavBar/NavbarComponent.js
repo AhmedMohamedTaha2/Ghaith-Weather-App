@@ -77,7 +77,7 @@ const NavbarComponent = ({
       <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
         <div className="flex items-center justify-between">
           <a className="flex-none text-xl font-semibold focus:outline-none focus:opacity-80" href="#" aria-label="Brand">
-          <img src={t('img url')} alt="Logo" className="h-14" />
+          <img src={`${process.env.PUBLIC_URL}/${t('img url')}`} alt="Logo" className="h-14" />
           </a>
           <div className="sm:hidden">
             <button
