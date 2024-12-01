@@ -1,0 +1,17 @@
+{
+  "Date": "日期",
+  "Location": "位置",
+  "Temperature": "温度",
+  "Weather Condition": "天气状况",
+  "Max Temperature": "最高温度",
+  "Min Temperature": "最低温度",
+  "Humidity": "湿度",
+  "Wind Speed": "风速",
+  "Language": "语言",
+  "Country": "国家",
+  "City": "城市",
+  "Stay connected with us": "与我们保持联系",
+  "img url": "/Images/ghiath.png",
+  "No Location Selected": "未选择位置",
+  "Default Values": "默认值"
+}

@@ -1,0 +1,17 @@
+{
+  "Date": "Дата",
+  "Location": "Местоположение",
+  "Temperature": "Температура",
+  "Weather Condition": "Погодные условия",
+  "Max Temperature": "Максимальная температура",
+  "Min Temperature": "Минимальная температура",
+  "Humidity": "Влажность",
+  "Wind Speed": "Скорость ветра",
+  "Language": "Язык",
+  "Country": "Страна",
+  "City": "Город",
+  "Stay connected with us": "Оставайтесь на связи с нами",
+  "img url": "/Images/ghiath.png",
+  "No Location Selected": "Местоположение не выбрано",
+  "Default Values": "Значения по умолчанию"
+}
