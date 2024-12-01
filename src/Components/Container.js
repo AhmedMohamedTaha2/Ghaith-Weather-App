@@ -9,7 +9,7 @@ export default function ContainerComponent() {
   };
 
   return (
-    <div className="main-container h-auto my-1 w-full mx-auto flex flex-col items-center py-20" style={style}>
+    <div className="main-container h-auto my-1 w-full mx-auto flex flex-col items-center pt-20 pb-40" style={style}>
       <CardComponent />
     </div>
   );

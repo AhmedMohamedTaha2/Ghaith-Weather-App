@@ -41,7 +41,7 @@ const FooterComponent = () => {
         <p className="text-base flex justify-center items-center">
           ©
           <img
-            src="/Images/ghiath.png"
+            src={`${process.env.PUBLIC_URL}/Images/ghiath.png`}
             alt="Logo"
             className="h-8 mx-2 w-auto"
           />
