@@ -36,47 +36,48 @@ The Weather Application is designed to provide users with an intuitive interface
 
 ## Folder Structure
 
-/public
-    /fonts           - Font files (Arabic and English).
-    /icons           - Icons used throughout the app.
-    /images          - Image assets used in the app.
-    /locales         - Localization files for different languages.
-    favicon.ico      - App favicon.
-    index.html       - Main HTML structure.
-    logo192.png      - Icon for different device resolutions.
-    logo512.png      - Icon for different device resolutions.
-    manifest.json    - PWA configuration.
-    robots.txt       - Web crawlers instructions.
+- **/public**
+    - /fonts - Font files (Arabic and English).
+    - /icons - Icons used throughout the app.
+    - /images  - Image assets used in the app.
+    - /locales  - Localization files for different languages.
+    - favicon.ico - App favicon.
+    - index.html- Main HTML structure.
+    - logo192.png - Icon for different device resolutions.
+    - logo512.png - Icon for different device resolutions.
+    - manifest.json - PWA configuration.
+    - robots.txt- Web crawlers instructions.
 
-src/
-    /components      - React components used in the UI.
-        CardComponent.js   - Displays weather info in card format.
-        FooterComponent.js - The footer of the app.
-        NavBar.js           - Navigation bar for selecting location.
-        Container.js        - Wrapper component for UI organization.
-    /contexts         - Context files for managing global state.
-        CountriesContext.js - Manages countries data.
-        SelectedLocationContext.js - Manages selected location data.
-        StateContext.js     - Manages general app state.
-        WeatherContext.js   - Manages weather data.
-    App.css          - Global CSS for the app.
-    App.js           - Root component integrating all the others.
-    App.test.js      - Test cases for the App component.
-    i18n.js          - Handles language translation.
-    index.css        - Styles for the main page.
-    index.js         - The entry point of the React app.
-    logo.svg         - The app logo in SVG format.
-    reportWebVitals.js - For measuring app performance.
-    setupTests.js    - Setup for testing environment.
+- **src/**
+    - /components - React components used in the UI.
+        - CardComponent.js  - Displays weather info in card format.
+        - FooterComponent.js - The footer of the app.
+        - NavBar.js- Navigation bar for selecting location.
+        - Container.jsd- Wrapper component for UI organization.
+    - /contexts - Context files for managing global state.
+        - CountriesContext.js - Manages countries data.
+        - SelectedLocationContext.js - Manages selected location data.
+        - StateContext.js - Manages general app state.
+        - WeatherContext.js - Manages weather data.
+    - App.css - Global CSS for the app.
+    - App.js - Root component integrating all the others.
+    - App.test.js - Test cases for the App component.
+    - i18n.js  - Handles language translation.
+    - index.css- Styles for the main page.
+    - index.js - The entry point of the React app.
+    - logo.svg - The app logo in SVG format.
+    - reportWebVitals.js - For measuring app performance.
+    - setupTests.js  - Setup for testing environment.
 
-other-files/
-    package.json      - Metadata and dependencies for the project.
-    package-lock.json - Locked versions of dependencies.
-    README.md         - Project documentation.
-    tailwind.config.js - Tailwind CSS configuration.
-    .gitignore        - Files to be ignored by Git.
-    build/            - The production build of the app.
-    node_modules/     - Project dependencies.
+- **other-files/**
+    - package.json  - Metadata and dependencies for the project.
+    - package-lock.json - Locked versions of dependencies.
+    - README.md - Project documentation.
+    - tailwind.config.js - Tailwind CSS configuration.
+    - .gitignore - Files to be ignored by Git.
+    - build/ - The production build of the app.
+    - node_modules/  - Project dependencies.
+
 
 ---
 
@@ -104,10 +105,3 @@ The application communicates with the following APIs to fetch required data:
 
 ---
 
-## Deployment
-
-To deploy the application, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/weather-application.git
